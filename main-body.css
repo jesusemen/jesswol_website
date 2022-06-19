@@ -1,0 +1,39 @@
+#main-body{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+#more{
+    display:none;
+}
+
+#sure {
+    display:none;
+}
+
+#embed {
+    display:none;
+
+}
+
+
+/* .content {
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+     border-left: rgb(36, 65, 27);
+    
+    
+    
+} */
+
+/* .write-up{
+
+    width: 500px;
+    padding:15px;
+    
+} */
+
+
+

@@ -1,0 +1,43 @@
+@import url(nav.css);
+@import url(footer.css);
+@import url(main-body.css);
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+
+    body {
+        font-family: 'Noto Sans', sans-serif;
+    }
+    
+    #container{
+        display:grid;
+        height: 600vh; 
+        flex-direction:column;
+        justify-items: center;
+        grid-template-columns: 1fr;
+        grid-template-rows: 0.2fr 3fr 3fr 3fr 3fr 0.2fr;
+        grid-gap: 10px;
+        grid-template-areas: 
+        "nav"
+        "main-body "
+        "footer";
+    }
+    
+    .main-body{
+        grid-area: main-body;
+    }
+
+    /* .paragraph {
+        text-align: justify;
+        width:400px;
+        
+    }
+ */
+
+
+
+

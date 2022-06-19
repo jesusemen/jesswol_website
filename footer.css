@@ -1,0 +1,12 @@
+footer{
+    grid-area: footer;
+    background-color:#eeee;
+    border-top: 1px solid lightgray;
+    height: 50px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.comname{
+    margin-top: 10px;
+}
